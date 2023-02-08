@@ -2,7 +2,7 @@ from django.shortcuts import render, get_object_or_404, redirect, HttpResponse
 from .models import Case, Judge, Witness
 
 def index(request):
-    return HttpResponse('<h1>WTF</h1>')
+    return HttpResponse('<h1>Test round</h1>')
     
 
 def case_list(request):
